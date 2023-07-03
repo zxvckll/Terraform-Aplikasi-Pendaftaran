@@ -39,7 +39,7 @@ resource "aws_autoscaling_policy" "rawat-jalan" {
       predefined_metric_type = "ASGAverageCPUUtilization"
     }
 
-    target_value = 25.0
+    target_value = 80.0
   }
 
 }
